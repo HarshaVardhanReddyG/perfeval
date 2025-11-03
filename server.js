@@ -34,7 +34,7 @@ const responseData = {
 };
 
 // Define a route to serve the data
-app.get('/api/performance-evaluation', (req, res) => {
+app.get('/api/performance-setup', (req, res) => {
   res.json(responseData);  // Send the mock data as a JSON response
 });
 
